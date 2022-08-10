@@ -1,0 +1,34 @@
+
+body {
+    background-color: #ddd;
+}
+
+img {
+    padding: 8px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    width: 640px;
+    margin: 50px auto;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+
+}
+
+.dark {
+    background-color: #888;
+}
+
+.light {
+    background-color: #fff;
+}
+
+.highlighted {
+    background-color: rgb(200, 120, 120);
+}
